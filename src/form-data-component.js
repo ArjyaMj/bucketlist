@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { confirmAlert } from 'react-confirm-alert';
 import './App.css';
+import AppDrag from './AppDrag'
+
 
 export default class FormDataComponent extends Component {
     constructor(props) {
@@ -62,6 +64,7 @@ export default class FormDataComponent extends Component {
         if (JSON.parse(localStorage.getItem(this.props.value))['userlist']){
             result = JSON.parse(localStorage.getItem(this.props.value))['userlist']
         }
+        var inputAppDrag ={willUpdate :1 , tasks : result}
         
         return (
             <div>
@@ -80,15 +83,8 @@ export default class FormDataComponent extends Component {
                    <div>
                        {this.props.value}'s Bucket List
                        <br/><br/>
-                       <div>                          
-                            {
-                                result.map((value,index)=>(<div>                                                                                                                    
-                                                             <button className="Reset-Button" onClick={()=>{if (window.confirm('Confirm Delete')) this.delete(index)}}>
-                                                        Delete
-                                                    </button>    {value}   </div>                                                                                                                                                                                                                                                                                                                                                                      
-                                                        )
-                                        )
-                            }                           
+                       <div>                                               
+                       <AppDrag value={inputAppDrag}/>                    
                         </div>
                     </div>
                 }

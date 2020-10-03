@@ -25,6 +25,18 @@
   font-family: Trebuchet MS, sans-serif
 }
 
+.App-header > div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.App-header > form {
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
 .User-list {
   background-color: black;
   min-height: 100vh;
@@ -35,6 +47,28 @@
   font-size: calc(10px + 2vmin);
   color: white;
   font-family: Trebuchet MS, sans-serif
+}
+
+.Form {
+  margin: 0 auto;
+  width: 210px;
+  /* align-items: center */
+}
+
+.Center {
+  margin: auto;
+  width: 60%;
+  /* border: 3px solid #73AD21; */
+  padding: 10px;
+  padding-left: 300px;
+}
+
+.Button {
+  margin: auto;
+  width: 60%;
+  /* border: 3px solid #73AD21; */
+  padding: 10px;
+  padding-left: 175px;
 }
 
 .App-link {
@@ -72,7 +106,7 @@
   display: inline-block;
   font-size: 16px;
   border-radius: 5px;
-  background-color: crimson ;
+  background-color: crimson 
 }
 .Register-Button {
   border: none;
@@ -111,4 +145,5 @@
   font-size: 13px;
   border-radius: 5px;
   background-color: crimson ;
+  margin-top:5px;
 }
