@@ -42,13 +42,34 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  /* flex-basis: 1000px; */
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  font-family: Trebuchet MS, sans-serif
+  font-family: Trebuchet MS, sans-serif;
 }
-
+.User-list div{
+  flex:1;
+}
+.List-area{
+  display:flex;
+  /* flex-basis: 50px; */
+  flex-direction: row;
+}
+.flex {
+  /* display : flex; */
+  word-wrap:break-word;
+  width:250px;
+  /* flex-direction: column; */
+ }
+ .test {
+   display:flex;
+   flex-direction: column;
+ }
+/* .List-area div {
+  flex-basis: 250px;
+} */
 .Form {
   margin: 0 auto;
   width: 210px;
@@ -64,11 +85,18 @@
 }
 
 .Button {
-  margin: auto;
-  width: 60%;
-  /* border: 3px solid #73AD21; */
-  padding: 10px;
-  padding-left: 175px;
+  border: none;
+  color: white;
+  width : 100px;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: darkolivegreen ;
 }
 
 .App-link {
@@ -96,18 +124,6 @@
   border-radius: 5px;
   background-color: darkolivegreen;
 }
-.Log-Out-Button {
-  border: none;
-  color: white;
-  width: 150px;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 5px;
-  background-color: crimson 
-}
 .Register-Button {
   border: none;
   color: white;
@@ -124,7 +140,7 @@
   border: none;
   color: white;
   width : 100px;
-  padding: 5px 5px;
+  padding: 5px 5px 5px 5px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -138,7 +154,7 @@
   border: none;
   color: white;
   width : 100px;
-  padding: 5px 5px;
+  padding: 5px 5px 5px 5px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -146,4 +162,5 @@
   border-radius: 5px;
   background-color: crimson ;
   margin-top:5px;
+  margin-right: 5px;
 }
