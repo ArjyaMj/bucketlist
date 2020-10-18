@@ -37,7 +37,7 @@ class App extends React.Component {
   render(){
   return (
     <div>
-      {this.state.userprop ?   <Home username={this.state.username.replace("@","").replace(".","")}/> : <LogIn />}
+      {this.state.userprop ?   <Home username={this.state.username.replace(/\@/g,"").replace(/\./g,"")}/> : <LogIn />}
     </div>
   );
   }

@@ -30,8 +30,9 @@ class LogIn extends Component {
     e.preventDefault();
     fire.auth().createUserWithEmailAndPassword(this.state.email, this.state.password).then((u)=>{
         alert("You Have Been Successfully Registered");
-        database.ref('Details').child(this.state.email.replace("@","").replace(".","")).child('username').set(this.state.email);
-        database.ref('Details').child(this.state.email.replace("@","").replace(".","")).child('tasks/title').set("")
+        database.ref('Details').child(this.state.email.replace(/\@/g,"").replace(/\./g,"")).child('username').set(this.state.email);
+        database.ref('Details').child(this.state.email.replace(/\@/g,"").replace(/\./g,"")).child('tasks/title').set("")
+        database.ref('Details').child(this.state.email.replace(/\@/g,"").replace(/\./g,"")).child('removed/title').set("")
     }).then((u)=>{console.log(u)})
     .catch((error) => {
         alert(error);
