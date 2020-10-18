@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bucketlist/static/css/main.9cb56c47.chunk.css",
-    "main.js": "/bucketlist/static/js/main.bf4f0661.chunk.js",
-    "main.js.map": "/bucketlist/static/js/main.bf4f0661.chunk.js.map",
+    "main.js": "/bucketlist/static/js/main.4650af1a.chunk.js",
+    "main.js.map": "/bucketlist/static/js/main.4650af1a.chunk.js.map",
     "runtime-main.js": "/bucketlist/static/js/runtime-main.8aa3d49a.js",
     "runtime-main.js.map": "/bucketlist/static/js/runtime-main.8aa3d49a.js.map",
     "static/js/2.bb6ffa55.chunk.js": "/bucketlist/static/js/2.bb6ffa55.chunk.js",
     "static/js/2.bb6ffa55.chunk.js.map": "/bucketlist/static/js/2.bb6ffa55.chunk.js.map",
     "index.html": "/bucketlist/index.html",
-    "precache-manifest.08798f6e275c27e7acf46a7f55016c85.js": "/bucketlist/precache-manifest.08798f6e275c27e7acf46a7f55016c85.js",
+    "precache-manifest.66eab08b0e2884ad1295849e9d4b7952.js": "/bucketlist/precache-manifest.66eab08b0e2884ad1295849e9d4b7952.js",
     "service-worker.js": "/bucketlist/service-worker.js",
     "static/css/main.9cb56c47.chunk.css.map": "/bucketlist/static/css/main.9cb56c47.chunk.css.map",
     "static/js/2.bb6ffa55.chunk.js.LICENSE.txt": "/bucketlist/static/js/2.bb6ffa55.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.8aa3d49a.js",
     "static/js/2.bb6ffa55.chunk.js",
     "static/css/main.9cb56c47.chunk.css",
-    "static/js/main.bf4f0661.chunk.js"
+    "static/js/main.4650af1a.chunk.js"
   ]
 }
